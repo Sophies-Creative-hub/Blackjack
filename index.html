@@ -146,7 +146,7 @@
 
         function compareScores(userScore, computerScore) {
             if (userScore > 21 && computerScore > 21) {
-                return "Du bist über 21. Du verlierst 😤";
+                return "Du hast über 21. Du verlierst 😤";
             }
             if (userScore === computerScore) {
                 return "Unentschieden 🙃";
@@ -158,10 +158,10 @@
                 return "Verloren, Gegner hat Blackjack 😱";
             }
             if (userScore > 21) {
-                return "Du bist über 21. Du verlierst 😭";
+                return "Du hast über 21. Du verlierst 😭";
             }
             if (computerScore > 21) {
-                return "Gegner ist über 21. Du gewinnst 😁";
+                return "Gegner hat über 21. Du gewinnst 😁";
             }
             if (userScore > computerScore) {
                 return "Du gewinnst 😃";
